@@ -98,16 +98,32 @@
 }
 
 @media only screen and (max-width: 400px) {
-  .fandom-sticky-header.is-visible .fandom-community-header__local-navigation .wds-tabs .wds-dropdown:first-child {
-    display: none;
-  }
-  .fandom-sticky-header.is-visible .fandom-sticky-header__sitename {
-    display: none;
-  }
+	.fandom-sticky-header.is-visible .fandom-community-header__local-navigation .wds-tabs .wds-dropdown:first-child {
+		display: none !important;
+	}
+	.fandom-sticky-header.is-visible .fandom-sticky-header__sitename {
+		display: none !important;
+	}
 	.fandom-sticky-header .fandom-community-header__local-navigation {
 		margin-left: 0px;
 	}
 	.fandom-community-header__local-navigation .wds-tabs__tab-label {
 		margin: 0 10px 0 0;
+	}
+  /* home page*/
+	.home-wrap {
+		flex-direction: column;
+	}
+	.home-wrapper {
+		padding: unset;
+	}
+	.home-title {
+		font-size: 25px !important;
+	}
+	.background-cover {
+		height: 250px;
+	}
+	.background-cover img {
+		height: inherit;
 	}
 }
