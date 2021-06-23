@@ -118,24 +118,24 @@
 		margin-bottom: 2px;
 	}
 	#userProfileApp .user-identity-avatar {
-		width: 48px;
-		height: 48px;
+		width: 75px;
+		height: 75px;
 		margin-right: 10px;
 		position: absolute;
 	}
 	#userProfileApp .user-identity-avatar__image {
-		width: 48px;
-		height: 48px;
+		width: 75px;
+		height: 75px;
 		border: none;
 	}
 	#userProfileApp .user-identity-header {
-		margin-left: 60px;
-    width: calc(100% - 60px);
+		margin-left: 85px;
+    width: calc(100% - 85px);
 	}
 	#userProfileApp ul.user-identity-stats {
 		font-size: 12px;
-		margin: 3px 0px;
-		margin-left: 60px;
+		margin: 6px 0px;
+		margin-left: 85px;
 	}
 	#userProfileApp .user-identity-bio {
 		font-size: 14px;
@@ -145,15 +145,16 @@
 		width: 10px;
 	}
 	#userProfileApp .user-identity-social {
-		justify-content: center;
+		justify-content: flex-end;
 	}
 	#userProfileApp .user-identity-social>li {
 		margin-right: 12px;
 	}
 	#userProfileApp .user-profile-navigation {
 		white-space: nowrap;
-		font-size: 12px;
+		font-size: 12px !important;
 		overflow-x: auto;
+    padding: 8px !important;
 	}
 	.fandom-community-header {
 		overflow-x: auto;
