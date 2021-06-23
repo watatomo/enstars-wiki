@@ -159,4 +159,9 @@
 	.fandom-community-header {
 		overflow-x: auto;
 	}
+  body.skin-fandomdesktop #userProfileApp .user-profile-navigation__link {
+    font-size: 12px;
+    padding: 8px;
+    letter-spacing: unset;
+  }
 }
