@@ -3,9 +3,13 @@
 }
 
 @media only screen and (max-width: 812px) {
-	.page-content p, .page-content section {
-		margin: unset;
-	}
+
+  /*none jail*/
+  .global-navigation__top, 	.notifications, .fandom-sticky-header.is-visible .fandom-community-header__local-navigation .wds-tabs .wds-dropdown:first-child, .fandom-sticky-header.is-visible .fandom-sticky-header__sitename, .user-identity-header__actions, .page-side-tools__wrapper, .page-header__top, .page__right-rail {
+    display: none !important;
+  }
+
+  /*main stuff*/
 	.main-container {
 		margin-left: unset;
 		width: unset;
@@ -41,12 +45,6 @@
 		box-shadow: none !important;
 		height: 50px !important;
 	}
-	.global-navigation__top {
-		display: none;
-	}
-	.notifications {
-		display: none;
-	}
 	.notifications + div {
 		position: absolute;
 		top: 0px;
@@ -73,16 +71,21 @@
 	.page__main {
 		padding: .7em;
 	}
-	.page-side-tools__wrapper, .page-header__top, .page__right-rail {
-		display: none;
-	}
+  .fandom-sticky-header .fandom-community-header__local-navigation {
+    margin-left: 0px;
+  }
+  .fandom-community-header__local-navigation .wds-tabs__tab-label {
+    margin: 0 10px 0 0;
+  }
+
+  /*story pages*/
 	.article-table tr td, .article-table tr th, .wikitable tr td, .wikitable tr th {
 		padding: .6em;
 		font-size: 12px;
 	}
 	.storyNavBar {
 		font-size: .75em !important;
-		line-height: 1.2;
+		line-height: 1.5;
 	}
 	.CategorySelect.articlePage .container {
 		padding: 0 0 4px 0;
@@ -95,18 +98,7 @@
 		max-width: 100%;
 		height: auto;
 	}
-  .fandom-sticky-header.is-visible .fandom-community-header__local-navigation .wds-tabs .wds-dropdown:first-child {
-    display: none !important;
-  }
-  .fandom-sticky-header.is-visible .fandom-sticky-header__sitename {
-    display: none !important;
-  }
-  .fandom-sticky-header .fandom-community-header__local-navigation {
-    margin-left: 0px;
-  }
-  .fandom-community-header__local-navigation .wds-tabs__tab-label {
-    margin: 0 10px 0 0;
-  }
+
   /* home page*/
   .home-wrap {
     flex-direction: column;
@@ -122,5 +114,8 @@
   }
   .background-cover img {
     height: inherit;
+  }
+  .home-left {
+    padding: 0 1em;
   }
 }
