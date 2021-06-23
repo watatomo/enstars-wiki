@@ -152,9 +152,7 @@
 	}
 	#userProfileApp .user-profile-navigation {
 		white-space: nowrap;
-		font-size: 12px !important;
 		overflow-x: auto;
-    padding: 8px !important;
 	}
 	.fandom-community-header {
 		overflow-x: auto;
