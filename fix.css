@@ -63,7 +63,10 @@
 		height: 196px !important;
 	}
 	.fandom-community-header {
-		padding: 0 10px;
+		padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 1200px;
+    margin-bottom: -1200px;
 	}
 	.page__main {
 		padding: .7em;
