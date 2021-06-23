@@ -117,6 +117,10 @@
 	.home-left {
 		padding: 0 1em;
 	}
+  .background-cover img:not(.background-cover-default)+div {
+    right: 20px;
+    top: 20px;
+  }
 	/* PROFILES */
 	#userProfileApp .user-identity-box {
 		margin-bottom: 2px;
