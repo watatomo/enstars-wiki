@@ -130,6 +130,7 @@
 	}
 	#userProfileApp .user-identity-header {
 		margin-left: 60px;
+    width: calc(100% - 60px);
 	}
 	#userProfileApp ul.user-identity-stats {
 		font-size: 12px;
