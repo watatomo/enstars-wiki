@@ -166,4 +166,11 @@
     padding: 8px;
     letter-spacing: unset;
   }
+  /* INFOBOXES AND STUFF */
+  .portable-infobox {
+    width: 100%;
+  }
+  .tabContainer, .mbox__content__wrapper {
+    font-size: .88em;
+  }
 }
