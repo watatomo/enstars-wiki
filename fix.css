@@ -1,15 +1,12 @@
 .page-content p, .page-content section {
-    margin: unset;
+	margin: unset;
 }
-
 @media only screen and (max-width: 812px) {
-
-  /*none jail*/
-  .global-navigation__top, 	.notifications, .fandom-sticky-header.is-visible .fandom-community-header__local-navigation .wds-tabs .wds-dropdown:first-child, .fandom-sticky-header.is-visible .fandom-sticky-header__sitename, .user-identity-header__actions, .page-side-tools__wrapper, .page-header__top, .page__right-rail {
-    display: none !important;
-  }
-
-  /*main stuff*/
+	/* NONE JAIL */
+	.global-navigation__top, .notifications, .fandom-sticky-header.is-visible .fandom-community-header__local-navigation .wds-tabs .wds-dropdown:first-child, .fandom-sticky-header.is-visible .fandom-sticky-header__sitename, .user-identity-header__actions, .page-side-tools__wrapper, .page-header__top, .page__right-rail {
+		display: none !important;
+	}
+	/* MAIN */
 	.main-container {
 		margin-left: unset;
 		width: unset;
@@ -45,7 +42,7 @@
 		box-shadow: none !important;
 		height: 50px !important;
 	}
-	.notifications + div {
+	.notifications+div {
 		position: absolute;
 		top: 0px;
 		right: 0px
@@ -59,7 +56,7 @@
 	.wds-avatar img {
 		border-color: #1d3dc7 !important;
 	}
-	.notifications + div > .wds-dropdown__content {
+	.notifications+div>.wds-dropdown__content {
 		position: absolute !important;
 		top: 0px !important;
 		left: 50px !important;
@@ -71,14 +68,13 @@
 	.page__main {
 		padding: .7em;
 	}
-  .fandom-sticky-header .fandom-community-header__local-navigation {
-    margin-left: 0px;
-  }
-  .fandom-community-header__local-navigation .wds-tabs__tab-label {
-    margin: 0 10px 0 0;
-  }
-
-  /*story pages*/
+	.fandom-sticky-header .fandom-community-header__local-navigation {
+		margin-left: 0px;
+	}
+	.fandom-community-header__local-navigation .wds-tabs__tab-label {
+		margin: 0 10px 0 0;
+	}
+	/* STORY PAGES */
 	.article-table tr td, .article-table tr th, .wikitable tr td, .wikitable tr th {
 		padding: .6em;
 		font-size: 12px;
@@ -98,24 +94,67 @@
 		max-width: 100%;
 		height: auto;
 	}
-
-  /* home page*/
-  .home-wrap {
-    flex-direction: column;
-  }
-  .home-wrapper {
-    padding: unset;
-  }
-  .home-title {
-    font-size: 25px !important;
-  }
-  .background-cover {
-    height: 250px;
-  }
-  .background-cover img {
-    height: inherit;
-  }
-  .home-left {
-    padding: 0 1em;
-  }
+	/* HOME PAGE */
+	.home-wrap {
+		flex-direction: column;
+	}
+	.home-wrapper {
+		padding: unset;
+	}
+	.home-title {
+		font-size: 25px !important;
+	}
+	.background-cover {
+		height: 250px;
+	}
+	.background-cover img {
+		height: inherit;
+	}
+	.home-left {
+		padding: 0 1em;
+	}
+	/* PROFILES */
+	#userProfileApp .user-identity-box {
+		margin-bottom: 2px;
+	}
+	#userProfileApp .user-identity-avatar {
+		width: 48px;
+		height: 48px;
+		margin-right: 10px;
+		position: absolute;
+	}
+	#userProfileApp .user-identity-avatar__image {
+		width: 48px;
+		height: 48px;
+		border: none;
+	}
+	#userProfileApp .user-identity-header {
+		margin-left: 60px;
+	}
+	#userProfileApp ul.user-identity-stats {
+		font-size: 12px;
+		margin: 3px 0px;
+		margin-left: 60px;
+	}
+	#userProfileApp .user-identity-bio {
+		font-size: 14px;
+		margin: 12px 0px;
+	}
+	.user-identity-social .wds-icon {
+		width: 10px;
+	}
+	#userProfileApp .user-identity-social {
+		justify-content: center;
+	}
+	#userProfileApp .user-identity-social>li {
+		margin-right: 12px;
+	}
+	#userProfileApp .user-profile-navigation {
+		white-space: nowrap;
+		font-size: 12px;
+		overflow-x: auto;
+	}
+	.fandom-community-header {
+		overflow-x: auto;
+	}
 }
