@@ -117,6 +117,7 @@
 	}
 	.background-cover {
 		height: 250px;
+		-webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%) !important
 	}
 	.background-cover img {
 		height: inherit;
@@ -134,6 +135,21 @@
 	#home-unofficial-link, #home-official-link {
 		font-size: smaller !important;
 		min-width: unset;
+	}
+	.home-right-wrap {
+		margin: 0 15px;
+	}
+	.campaigns-wrapper {
+		font-size: smaller;
+	}
+	.campaigns-wrapper img {
+		width: 75% !important;
+	}
+	.home-birthday-name {
+		font: 700 10pt 'Rubik',sans-serif !important;
+	}
+	.home-birthday-date {
+		font: 500 9pt 'Rubik',sans-serif !important;
 	}
 	/* PROFILES */
 	#userProfileApp .user-identity-box {
