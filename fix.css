@@ -133,6 +133,7 @@
 	}
 	#home-unofficial-link, #home-official-link {
 		font-size: smaller !important;
+		min-width: unset;
 	}
 	/* PROFILES */
 	#userProfileApp .user-identity-box {
