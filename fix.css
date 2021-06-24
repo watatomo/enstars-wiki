@@ -140,7 +140,7 @@
 		margin: 0 15px;
 	}
 	.home-widget-wrapper > div, .home-right > div {
-		min-width: unset;
+		min-width: 150px;
 	}
 	.campaigns-wrapper {
 		font-size: smaller;
