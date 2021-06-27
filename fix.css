@@ -60,7 +60,7 @@
 		position: absolute !important;
 		top: 0px !important;
 		left: 50px !important;
-		height: 196px !important;
+		height: 230px !important; /* originally 196px */
 	}
 	.fandom-community-header {
 		padding-left: 10px;
@@ -144,9 +144,7 @@
 	}
 	.campaigns-wrapper {
 		font-size: smaller;
-	}
-	.campaigns-wrapper img {
-		width: 75% !important;
+		padding-right: 2.5em;
 	}
 	.home-birthday-name {
 		font: 700 10pt 'Rubik',sans-serif !important;
