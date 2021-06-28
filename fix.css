@@ -35,7 +35,7 @@
 	.resizable-container {
 		margin-top: 10px;
 		margin-bottom: 10px;
-		width: 100%;
+		width: 100% !important;
 	}
 	.global-navigation {
 		background: none !important;
@@ -204,6 +204,7 @@
   /* INFOBOXES AND STUFF */
   .portable-infobox {
     width: 100% !important;
+		left: 8px;
   }
   .tabContainer, .mbox__content__wrapper {
     font-size: .88em;
