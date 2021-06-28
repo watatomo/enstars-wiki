@@ -203,7 +203,7 @@
   }
   /* INFOBOXES AND STUFF */
   .portable-infobox {
-    width: 100%;
+    width: 100% !important;
   }
   .tabContainer, .mbox__content__wrapper {
     font-size: .88em;
