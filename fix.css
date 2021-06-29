@@ -7,6 +7,7 @@
 	.main-container {
 		margin-left: unset;
 		width: unset;
+		min-width: unset;
 	}
 	.page-header__bottom, .page-header__top {
 		flex-direction: column-reverse;
