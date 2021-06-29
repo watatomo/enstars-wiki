@@ -1,6 +1,3 @@
-.page-content p, .page-content section {
-	margin: unset;
-}
 @media only screen and (max-width: 812px) {
 	/* NONE JAIL */
 	.global-navigation__top, .notifications, .fandom-sticky-header.is-visible .fandom-community-header__local-navigation .wds-tabs .wds-dropdown:first-child, .fandom-sticky-header.is-visible .fandom-sticky-header__sitename, .user-identity-header__actions, .page-side-tools__wrapper, .page-header__top, .page__right-rail {
