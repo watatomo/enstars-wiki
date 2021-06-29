@@ -122,7 +122,7 @@
 	}
 	.background-cover {
 		height: 250px;
-		-webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%) !important
+		-webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%) !important;
 	}
 	.background-cover img {
 		height: inherit;
