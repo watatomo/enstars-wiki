@@ -60,13 +60,14 @@
 		position: absolute !important;
 		top: 0px !important;
 		left: 50px !important;
-		height: 230px !important; /* originally 196px */
+		height: 230px !important;
+		/* originally 196px */
 	}
 	.fandom-community-header {
 		padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 1200px;
-    margin-bottom: -1200px;
+		padding-right: 10px;
+		padding-bottom: 1200px;
+		margin-bottom: -1200px;
 	}
 	.page__main {
 		padding: .7em;
@@ -77,10 +78,10 @@
 	.fandom-community-header__local-navigation .wds-tabs__tab-label {
 		margin: 0 10px 0 0;
 	}
-  #LightboxModal {
-    margin-left: 0px;
-    width: 90%;
-  }
+	#LightboxModal {
+		margin-left: 0px;
+		width: 90%;
+	}
 	/* STORY PAGES */
 	.article-table tr td, .article-table tr th, .wikitable tr td, .wikitable tr th {
 		padding: .6em;
@@ -115,6 +116,10 @@
 		font-size: .9em !important;
 		margin: .6em 0 !important;
 	}
+	.home-title, .home-subtitle {
+		padding: 0 .5em;
+		text-shadow: 0 0 3px #ffffff, 0 0 3px #ffffff, 0 0 5px #ffffff;
+	}
 	.background-cover {
 		height: 250px;
 		-webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%) !important
@@ -125,12 +130,12 @@
 	.home-left {
 		padding: 0 1em;
 	}
-  .background-cover img:not(.background-cover-default)+div {
-    right: 20px;
-    top: 20px;
-  }
+	.background-cover img:not(.background-cover-default)+div {
+		right: 20px;
+		top: 20px;
+	}
 	#home-unofficial-link .home-widget-title, #home-official-link .home-widget-title {
-		font: 800 8pt 'Montserrat',sans-serif !important;
+		font: 800 8pt 'Montserrat', sans-serif !important;
 	}
 	#home-unofficial-link, #home-official-link {
 		font-size: smaller !important;
@@ -139,7 +144,7 @@
 	.home-right-wrap {
 		margin: 0 15px;
 	}
-	.home-widget-wrapper > div, .home-right > div {
+	.home-widget-wrapper>div, .home-right>div {
 		min-width: 150px;
 	}
 	.campaigns-wrapper {
@@ -147,10 +152,13 @@
 		padding-right: 2.5em;
 	}
 	.home-birthday-name {
-		font: 700 10pt 'Rubik',sans-serif !important;
+		font: 700 10pt 'Rubik', sans-serif !important;
 	}
 	.home-birthday-date {
-		font: 500 9pt 'Rubik',sans-serif !important;
+		font: 500 9pt 'Rubik', sans-serif !important;
+	}
+	.home-navi-wrapper {
+		margin: 20px 10px;
 	}
 	/* PROFILES */
 	#userProfileApp .user-identity-box {
@@ -169,7 +177,7 @@
 	}
 	#userProfileApp .user-identity-header {
 		margin-left: 85px;
-    width: calc(100% - 85px);
+		width: calc(100% - 85px);
 	}
 	#userProfileApp ul.user-identity-stats {
 		font-size: 12px;
@@ -196,17 +204,17 @@
 	.fandom-community-header {
 		overflow-x: auto;
 	}
-  body.skin-fandomdesktop #userProfileApp .user-profile-navigation__link {
-    font-size: 12px;
-    padding: 8px;
-    letter-spacing: unset;
-  }
-  /* INFOBOXES AND STUFF */
-  .portable-infobox {
-    width: 100% !important;
+	body.skin-fandomdesktop #userProfileApp .user-profile-navigation__link {
+		font-size: 12px;
+		padding: 8px;
+		letter-spacing: unset;
+	}
+	/* INFOBOXES AND STUFF */
+	.portable-infobox {
+		width: 100% !important;
 		left: 8px;
-  }
-  .tabContainer, .mbox__content__wrapper {
-    font-size: .88em;
-  }
+	}
+	.tabContainer, .mbox__content__wrapper {
+		font-size: .88em;
+	}
 }
