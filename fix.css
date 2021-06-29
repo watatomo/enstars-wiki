@@ -60,8 +60,7 @@
 		position: absolute !important;
 		top: 0px !important;
 		left: 50px !important;
-		height: 230px !important;
-		/* originally 196px */
+		height: 230px !important; /* originally 196px */
 	}
 	.fandom-community-header {
 		padding-left: 10px;
@@ -118,7 +117,7 @@
 	}
 	.home-title, .home-subtitle {
 		padding: 0 .5em;
-		text-shadow: 0 0 3px #ffffff, 0 0 3px #ffffff, 0 0 5px #ffffff;
+		text-shadow: 0 0 1px #ffffff, 0 0 3px #ffffff;
 	}
 	.background-cover {
 		height: 250px;
@@ -186,7 +185,7 @@
 	}
 	#userProfileApp .user-identity-bio {
 		font-size: 14px;
-		margin: 25px 10px 0;
+		margin: 30px 10px 0;
 	}
 	.user-identity-social .wds-icon {
 		width: 10px;
@@ -216,5 +215,8 @@
 	}
 	.tabContainer, .mbox__content__wrapper {
 		font-size: .88em;
+	}
+	.portable-infobox.pi-background:not(.pi-theme-lyrics) {
+		margin-bottom: 20px !important;
 	}
 }
