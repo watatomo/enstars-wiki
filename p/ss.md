@@ -25,7 +25,7 @@ Apologizes in advance for non-Windows users, as not all programs listed are cros
 
 ## Removing Shadows from SS Sprites
 
-While this is optional, it's I personally prefer to remove shadows from the sprites. The colors/opacity for them are quite inconsistent anyways.
+While this is optional, I personally prefer to remove shadows from the sprites. The colors/opacity for them are quite inconsistent anyways.
 
 1. Load up your desired file onto AssetStudio
 2. Navigate to the file's asset list and export the texture for the sprite (named `base`)
@@ -40,8 +40,8 @@ While this is optional, it's I personally prefer to remove shadows from the spri
 3. Open Photoshop and erase the shadow. It's always in the same spot
 ![2](img/ss/2.gif)
   - This is where it starts to get a little more complicated, but it'll be easy once you know what you're doing.
-4. Open the sprite's unity3d file onto UABE. It will ask you to decompress the file. You can just add a `1` at the end of the file
-5. Press on "Info" and find the `base` texture2d file. Click the "Plugins" option at right, double-click "Edit," and then replace the texture with your edited one
+4. Open the sprite's Unity3D file onto UABE. It will ask you to decompress the file. You can just add a `1` at the end of the file
+5. Press on "Info" and find the `base` Texture2D class. Click the "Plugins" option at right, double-click "Edit," and then replace the texture with your edited one
 ![3](img/ss/3.gif)
 6. Save it as a new file
 7. **IMPORTANT:** *Compress* the newly saved file, otherwise it won't open in Rai's program
@@ -53,17 +53,17 @@ Make sure the file name starts with `ss_` and ends with `.unity3d`. Now you have
 
 This is my own personal way of doing it, as I rather have more control over which frame I can choose.
 
-1. Upload the (edited) unity3d file to the SS Animator
+1. Upload the (edited) Unity3D file to the SS Animator
 2. Set "record" to `True` by checking the box
 3. Select "Idle" from the animation list, then download the ZIP
-4. Extract the zip and choose the *last* captured frame, usually ends with `_5` or `_6`
+4. Extract the ZIP and choose the *last* captured frame, usually ends with `_5` or `_6`
 5. Trim the image in Photoshop (`Image > Trim`) and upload to the wiki!
 
 ## Making 5\* Motion GIFs
 
 This method is so that it guarantees the highest quality GIF as possible. You could do this with any other motion too!
 
-1. Upload the (edited) unity3d file to the SS Animator
+1. Upload the (edited) Unity3D file to the SS Animator
 2. Set "record" to `True` by checking the box
 3. For 5\* motions, select either "Dance005," "Performance005," or "Vocal005" from the animation list. Then download and extract the ZIP
 4. Open Photoshop then go to `File > Scripts > Load Files into Stack`. Select "Folder" from the drop-down menu and upload the folder with all the motion frames. Sort the files by name
