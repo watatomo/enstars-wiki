@@ -1,12 +1,14 @@
 # Making SpriteStudio Assets for the Wiki
 
+Apologizes in advance for non-Windows users, as not all programs listed are cross-platform.
+
 ### Table of Contents
 - [Prerequisites](#prerequisites)
 - [Removing Shadows from SS Sprites](#removing-shadows-from-ss-sprites)
-- [Making a Mini Chara image](#making-a-mini-chara-image)
+- [Making a Mini Chara Image](#making-a-mini-chara-image)
 - [Making 5\* Motion GIFs](#making-5-motion-gifs)
 - [Converting into WebP](#converting-into-webp)
-- [Converting into Apng](#converting-into-apng)
+- [Converting into APNG](#converting-into-apng)
 - [Notes](#notes)
 
 ## Prerequisites
@@ -23,10 +25,10 @@
 
 ## Removing Shadows from SS Sprites
 
-While this is optional, it's my personal preference to remove shadows from the sprites. The colors for them are quite inconsistent anyways.
+While this is optional, it's I personally prefer to remove shadows from the sprites. The colors/opacity for them are quite inconsistent anyways.
 
 1. Load up your desired file onto AssetStudio
-2. Navigate to the file's `Asset List` and export the texture for the sprite (named `base`)
+2. Navigate to the file's asset list and export the texture for the sprite (named `base`)
 ![1](img/ss/1.gif)
   - I personally place the files in a folder so it's more organized, like so
   ```
@@ -37,9 +39,9 @@ While this is optional, it's my personal preference to remove shadows from the s
   ```
 3. Open Photoshop and erase the shadow. It's always in the same spot
 ![2](img/ss/2.gif)
-  - This is where it gets a little more complicated, but it'll be easy once you know what you're doing.
-4. Open the sprite's unity3d file onto UABE. It will ask you to decompress the file. You can just add a `1` at the end
-5. Press on `Info` and find the `base` texture2d file. Click the `Plugins` option at right, double-click `Edit`, then replace the texture with your edited one
+  - This is where it starts to get a little more complicated, but it'll be easy once you know what you're doing.
+4. Open the sprite's unity3d file onto UABE. It will ask you to decompress the file. You can just add a `1` at the end of the file
+5. Press on "Info" and find the `base` texture2d file. Click the "Plugins" option at right, double-click "Edit," and then replace the texture with your edited one
 ![3](img/ss/3.gif)
 6. Save it as a new file
 7. **IMPORTANT:** *Compress* the newly saved file, otherwise it won't open in Rai's program
@@ -47,9 +49,9 @@ While this is optional, it's my personal preference to remove shadows from the s
 
 Make sure the file name starts with `ss_` and ends with `.unity3d`. Now you have a SS sprite that doesn't have a shadow!
 
-## Making a Mini Chara image
+## Making a Mini Chara Image
 
-This is my personal way to do it, as I rather have more control over which frame I can choose.
+This is my own personal way of doing it, as I rather have more control over which frame I can choose.
 
 1. Upload the (edited) unity3d file to the SS Animator
 2. Set "record" to `True` by checking the box
@@ -74,7 +76,7 @@ This method is so that it guarantees the highest quality GIF as possible. You co
 7. Export it as a GIF using "Save for Web (Legacy)"! This is the preset I use
 <img src="/enstars-wiki/p/img/ss/2.png" style="width: 419px; height: auto; display: block;">
 
-And there you have it, a transparent 5\* motion GIF! Unless you want to convert it into other formats, scroll down!
+And there you have it, a transparent 5\* motion GIF! Unless you want to convert it into other formats, then scroll down!
 
 <img src="/enstars-wiki/p/img/ss/ss_tomoya_gacha90_e.gif" style="width: 288px; height: auto; display: block;">
 
