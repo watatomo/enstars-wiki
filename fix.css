@@ -90,13 +90,6 @@
 		margin-top: unset;
 	}
 	/* STORY PAGES */
-	.storyNavBar {
-		font-size: .75em !important;
-		line-height: 1.5;
-	}
-	.CategorySelect.articlePage .container {
-		padding: 0 0 4px 0;
-	}
 	table td:not([colspan="2"]) img {
 		min-width: 15vw;
 		height: auto;
