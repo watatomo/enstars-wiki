@@ -2,6 +2,8 @@
 
 Apologizes in advance for non-Windows users, as not all programs listed are cross-platform.
 
+If you don't have Photoshop, check out [the Chibi Maker](https://gradualcolors.github.io/enstars-ss-maker/)!
+
 ### Table of Contents
 - [Prerequisites](#prerequisites)
 - [Removing Shadows from SS Sprites](#removing-shadows-from-ss-sprites)
@@ -24,6 +26,8 @@ Apologizes in advance for non-Windows users, as not all programs listed are cros
 - A lot of patience
 
 ## Removing Shadows from SS Sprites
+
+***The current update to the SS Animator removes the shadows! So this step isn't required anymore.***
 
 While this is optional, I personally prefer to remove shadows from the sprites. The colors/opacity for them are quite inconsistent anyways.
 
